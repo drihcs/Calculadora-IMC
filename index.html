@@ -9,9 +9,8 @@
   <body>
     <main>
       <div class="card-IMC">
-        <h1 class="title">Calculadora - IMC</h1>
+        <h2 class="title">Calculadora - IMC</h2>
         <h3>Insira seus dados para que seja calculado o seu IMC.</h3>
-        <form onsubmit="imc(event)">
         <div class="form-inputs">
          <div class="input">
           <label for="nome">Nome:</label>
@@ -25,9 +24,9 @@
           <label for="altura">Altura(m):</label>
           <input type="number" id="altura" placeholder="Escreva sua altura" step="0.01" required>
          </div>
-        </div>
-        <button type="submit" id="calcular">Calcular</button>
-      </form>
+      </div>
+        <button type="button" id="calcular">Calcular</button>
+     
       <div class="result" id="resultado"></div>
     </main>
     <script src="script.js"></script>
