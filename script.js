@@ -10,21 +10,13 @@ function imc () {
 
         const valorIMC = (peso / (altura**2)).toFixed(1);
 
-        let classificacao = '';
-
-        if (valorIMC < 18.5){
-            classificacao = 'abaixo do peso.';
-        }else if (valorIMC >18.6 < 24.9) {
-            classificacao = 'com peso ideal.';
-        }else if (valorIMC >25 < 29.9){
-            classificacao = 'levemente acima do peso.';
-        }else if (valorIMC >30 < 34.9){
-            classificacao = 'com obesidade grau I.';
-        }else if (valorIMC >35 < 39.9){
-            classificacao = 'com obesidade grau II.';
-        }else if (valorIMC >40){
-            classificacao = 'com obesidade grau III.';
-        }
+    let classificacao = 
+     imc < 18.5 ? 'abaixo do peso.' :
+     imc <= 24.9 ? 'com peso ideal.' :
+     imc <= 29.9 ? 'levemente acima do peso.' :
+     imc <= 34.9 ? 'com obesidade grau I.' :
+     imc <= 39.9 ? 'com obesidade grau II.' :
+    'com obesidade grau III.';
 
         resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
         
