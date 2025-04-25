@@ -94,7 +94,7 @@ button {
   width: 300px;
   height: 40px;
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight:bold;
   background: var(--midnight-green);
   color: var(--white);
