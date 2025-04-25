@@ -51,7 +51,7 @@ main {
   height: 50px;
   font: bold 3rem;
   color: var(--white);
-  border-bottom: solid 5px black;
+  border-bottom: solid 5px var(--gunmetal);
   margin-bottom: 20px;
 }
 
@@ -94,7 +94,7 @@ button {
   width: 300px;
   height: 40px;
   margin-top: 20px;
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   font-weight:bold;
   background: var(--midnight-green);
   color: var(--white);
