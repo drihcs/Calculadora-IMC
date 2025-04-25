@@ -59,7 +59,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   gap: 15px;
   width: 100%;
   }
