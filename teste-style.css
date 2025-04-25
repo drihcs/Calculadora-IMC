@@ -19,7 +19,6 @@ main{
   height: 100vh;
   justify-content: center;
   align-items: center;
-
 }
 
 .card-IMC{
@@ -47,9 +46,12 @@ main{
   margin-bottom: 20px;
 }
 
+p{
+   padding: 20px;
+}
 .input {
   display: flex;
-  width: 300px;
+  width: 100vw;
   height: 50px;
   justify-content: space-between;
   align-items: center;
