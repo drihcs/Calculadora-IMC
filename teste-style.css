@@ -58,14 +58,15 @@ main {
 .form-inputs {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   gap: 15px;
   width: 100%;
-  align-items: center;
-}
+  }
 
 .input {
     display: flex;
-    width: 80%;
+    width: 100%;
     max-width: 300px;
     height: 50px;
     justify-content: space-between;
@@ -73,7 +74,7 @@ main {
 }
 
 .input label {
-  font: bold 1.2rem;
+  font: bold 1.5rem;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -92,7 +93,7 @@ main {
 }
 
 .input input::placeholder {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--gunmetal);
 }
   
