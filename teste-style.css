@@ -127,3 +127,15 @@ button:hover {
   overflow-wrap: break-word;
   user-select: none;
 }
+
+@media (max-width: 600px) {
+  .card-IMC {
+    width: 90%;
+    min-height: 500px;
+  }
+
+  .input input, button {
+    width: 100%;
+    max-width: none;
+  }
+}
