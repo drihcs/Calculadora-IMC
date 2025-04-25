@@ -54,26 +54,36 @@ main {
   margin-bottom: 20px;
 }
 
-.input {
+.form-inputs {
   display: flex;
-  width: 80%;
-  height: 50px;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
   align-items: center;
 }
 
-.input input,
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 300px;
+}
+
 .input label {
-  font: bold 1.5rem serif;
+  font: bold 1.2rem serif;
+  margin-right: 10px;
 }
 
 .input input {
-  width: 200px;
-  height: 50px;
+  flex: 1;
+  height: 40px;
+  padding: 5px;
   border-radius: 5px;
   border: none;
-  outline: 0;
+  outline: none;
+  font: 1rem serif;
   text-align: center;
+  max-width: 180px;
 }
 
 button {
