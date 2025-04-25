@@ -51,7 +51,7 @@ main {
   height: 50px;
   font: bold 3rem;
   color: var(--white);
-  border-bottom: solid 5px var(--gunmetal);
+  border-bottom: solid 2px #022b3aff;
   margin-bottom: 20px;
 }
 
@@ -74,6 +74,7 @@ main {
 
 .input label {
   font: bold 1.2rem;
+  font-weight: bold;
   margin-right: 10px;
 }
 
@@ -118,7 +119,7 @@ button:hover {
   height: 150px;
   border-radius: 5px;
   font-style: italic 2rem;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0.8px 0.8px 0.8px 0.8px black;
   background: var(--columbia-blue);
   color: var(--gunmetal);
   padding: 20px;
