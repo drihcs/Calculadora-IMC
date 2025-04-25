@@ -7,10 +7,10 @@
 }
 
 body {
+  background: linear-gradient(135deg, #022b3a, #1f7a8c);
   margin: 0;
   padding: 0;
-  background-color: var(--gunmetal);
-  font-family: 'Georgia', serif;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 main {
@@ -24,7 +24,6 @@ main {
 .card-IMC {
   display: flex;
   flex-direction: column;
-  background: var(--teal);
   color: var(--white);
   max-width: 400px;
   width: 90%;
@@ -32,9 +31,15 @@ main {
   align-items: center;
   justify-content: space-evenly;
   border-radius: 20px;
-  box-shadow: 0 0 10px black;
   padding: 20px;
   box-sizing: border-box;
+
+  /* Efeito vidro */
+  background: rgba(31, 122, 140, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .title {
